@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+body {
+    overflow-x: hidden;
+    color: black;
+}
+.imagen{
+    width: 80%;
+    height: 25vh;
+    border-radius: 50px;
+}
+.inicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    width: 80%;
+    height: 20vh;
+    margin: 20px;
+    position: relative;
+    left: 30%;
+}
+.navbar {
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.navbar li {
+    list-style: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.navbar li a {
+    display: block;
+    padding: 35px;
+    text-decoration: none;
+    background-color: blueviolet;
+}
+.navbar li a:hover {
+    background-color: rgb(153, 77, 216);
+}
+.total-imagenes{
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.imagen-1,
+.imagen-2,
+.imagen-3,
+.imagen-4,
+.imagen-5,
+.imagen-6,
+.imagen-7,
+.imagen-8{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d4d4d4;
+    border-radius: 10%;
+    margin: 30px;
+}
+.I1,
+.I2,
+.I3,
+.I4,
+.I5,
+.I6,
+.I7,
+.I8{
+    width: 400px;
+    height: 300px;
+    border-radius: 10%;
+}
+.imagen-texto{
+    display: flex;
+    justify-content: start;
+}
+.texto-imagen{  
+    padding: 5%;
+    cursor: pointer;
+}
+.Compra{
+    width: 60px;
+    height: 30px;
+    position: relative;
+    right: 100px;
+    top: 200px;
+    background-color: rgb(128, 25, 175);
+    border-radius: 30px;
+}
+img{
+    display: flex;
+    width: 50px;
+    border-radius: 50px;
+}
+.Compra:hover{
+    background-color: #2cc5d9;
+}
+.final {
+    position: relative;
+    top: 270px;
+    margin: 5px;
+    height: 20vh;
+    background-color: #631fbd;
+    border-radius: 150px 150px 0 0 ;
+}
+.texto-final{
+    color: rgb(29, 28, 28);
+    text-align: center;
+    padding: 35px;
+    font-weight: 500;
+}

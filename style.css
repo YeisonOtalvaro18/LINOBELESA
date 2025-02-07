@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+body {
+    overflow-x: hidden;
+    color: black;
+}
+.imagen{
+    width: 80%;
+    height: 25vh;
+    border-radius: 50px;
+}
+.inicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.menu {
+    width: 80%;
+    height: 20vh;
+    margin: 20px;
+    position: relative;
+    left: 30%; 
+}
+.navbar {
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 50px;
+
+}
+.navbar li {
+    list-style: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.navbar li a {
+    display: block;
+    padding: 35px;
+    text-decoration: none;
+    background-color: blueviolet;
+}
+.navbar li a:hover {
+    background-color: rgb(153, 77, 216);
+    border-radius: 50px 0px 50px 0px;
+}
+.inicio-icono {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    width: 30%;
+    height: 50%;
+    border-radius: 40px;
+}
+.texto {
+    padding-top: 10%;
+    padding-left: 15%;
+    color: white;
+}
+.formulario {
+    padding-top: 2%;
+    padding-left: 15%;
+    border-radius: 100px;
+    border-color: #75159b;
+}
+input {
+    border-radius: 100px;
+    width: 25%;
+    padding: 15px;
+    border: #6b14a5;
+}
+.boton {
+    border-radius: 100px;
+    background-color: rgb(104, 44, 201);
+    color: rgb(15, 15, 15);
+    font-weight: 800;
+    padding: 15px;
+    border: #602cd9;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background: #f1f1f1;
+}
+
+.titulo_juegos{
+    position: relative;
+    top: 250px;
+    left: 15%;
+    justify-content: end;
+}
+.boton1{
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: rgb(135, 98, 182);
+    color: rgb(17, 17, 17);
+    font-weight: 800;
+    padding: 15px;
+    border: rgb(135, 98, 182);
+    position: absolute;
+    left: 65%;
+    top: 5px;
+}
+.boton1:hover {
+    background: rgb(43, 23, 70);
+}
+.productos{
+    position: relative;
+    top: 250px;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10%;
+}
+.product-1,
+.product-2,
+.product-3,
+.product-4{
+    background-color: #ebeaea;
+    width: 400px;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 10%;
+}
+.l1,
+.l2,
+.l3,
+.l4{
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+}
+.texto-juego{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    cursor: pointer;
+}
+.dinero{
+    background-color: rgb(218, 94, 64);
+    border-radius: 30px;
+}
+.compra{
+    display: flex;
+    width: 50px;
+    border-radius: 50px;
+}
+.bolsa{
+    display: flex;
+    width: 50px;
+    border-radius: 50px;
+}
+.dinero:hover{
+    background-color: #2cc5d9;
+}
+.color-fondo{
+    background-color: #ebebeb;
+    position: relative;
+    top: 170px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding-bottom: 9%;
+    border-radius: 150px;
+}
+.final {
+    position: relative;
+    top: 270px;
+    margin: 5px;
+    height: 20vh;
+    background-color: #631fbd;
+    border-radius: 150px 150px 0 0 ;
+}
+.texto-final{
+    color: rgb(29, 28, 28);
+    text-align: center;
+    padding: 35px;
+    font-weight: 500;
+}
